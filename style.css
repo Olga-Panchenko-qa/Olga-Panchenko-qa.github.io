@@ -1,0 +1,106 @@
+style.css/* Общие стили для всей страницы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Светло-серый фон страницы */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Основной контейнер, который держит всю визитку */
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Шапка с фото */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); /* Красивый градиент */
+    color: white;
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* Делает фото круглым */
+    object-fit: cover; /* Чтобы фото правильно вписывалось в круг */
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.profession {
+    font-size: 1.4rem;
+    opacity: 0.9;
+}
+
+/* Стили для всех секций (О себе, Контакты) */
+.section {
+    font-style:italic;
+    padding: 35px;
+    border-bottom: 1px solid #eee;
+}
+
+.section:last-of-type {
+    border-bottom: none;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6a11cb;
+}
+
+/* Стили для списка контактов */
+.contact-list {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list i {
+    color: #2563eb; /* Цвет иконок */
+    font-size: 1.3rem;
+    width: 30px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+/* Стили для подвала (футера) */
+.footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #f8f9fa;
+    color: #666;
+    font-size: 0.9rem;
+}
