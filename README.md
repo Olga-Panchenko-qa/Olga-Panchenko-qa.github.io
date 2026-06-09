@@ -104,8 +104,8 @@
 
 ## 🎒 Образование
 [<img src="/Certificate1.png" width="280px" hspace="10px" alt="Certificate of Completion for the Basic Course in Quality Assurance Engineering">](https://raw.githubusercontent.com/Olga-Panchenko-qa/Olga-Panchenko-qa.github.io/refs/heads/main/Certificate1.png)
-
-
+[<img src="/recommendation.png" width="280px" hspace="10px" alt="Рекомендательное письмо»">]
+(https://raw.githubusercontent.com/Olga-Panchenko-qa/Olga-Panchenko-qa.github.io/refs/heads/main/Recommendation.png)
 <br>
 <br>
 
