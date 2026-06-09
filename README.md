@@ -94,6 +94,8 @@
 <br>
 
 ## 🪴 Практика и стажировка
+[<img src="/Internship-en.png" width="280px" hspace="10px" alt="Сертификат об окончании стажировки»">](https://github.com/Olga-Panchenko-qa/Olga-Panchenko-qa.github.io/blob/main/Internship-en.png)
+
 
 
 
